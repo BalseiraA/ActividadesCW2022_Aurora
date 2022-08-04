@@ -1,0 +1,64 @@
+ @font-face {
+    font-family: "FuenteTitulo";
+    src: url("../fonts/Alata/Alata-Regular.ttf");
+}
+
+*{
+    font-family: "FuenteTitulo";
+}
+
+/* -------------------- BODY -------------------- */
+
+body{
+    background-color: #CCBAF1;
+    border-radius: 1%;
+}
+
+/* -------------------- BODY -------------------- */
+
+h1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    
+    border: 5px solid #5717eb; 
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    padding: 10px;
+
+    background-color: #814beb;
+    color: #fff;
+
+    overflow: auto;
+    border-top: 20%;
+    display: inline;
+    position: relative;
+    left: 41.5vw;
+    top: 2.5vh;
+}
+
+section{
+    border: 5px solid #5717eb; 
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    padding: 30px;
+
+    background-color: #d29eeb;
+    color: #fff;
+
+    position: relative;
+    margin:auto;
+    top: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    width: 500px;
+    height: 335px;
+}
+
+table{
+    background-color: #d29eeb;
+    position: relative;
+    top: 5.5vh;
+    font-style: normal;
+}

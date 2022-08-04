@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscaminas</title>
+    <link rel="stylesheet" href="./statics/buscaminas.css">
+</head>
+<body id="fondo">
+    <div id="titulo">
+        <h1>Buscaminas</h1>
+            <div id="info">
+                <form action="./dynamics/buscaminas.php" method="post" target="_self" >
+                    <label for="nombre" id="nombres">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Nombre" required>
+                    <label for="dificultad">Dificultad:</label>
+                    <select name="dificultad" id="opciones">
+                        <option value="facil">Facil</option>
+                        <option value="normal">Normal</option>
+                        <option value="dificil">Dificil</option>
+                    </select>
+                    <br><br>
+                    <button id="boton">Iniciar</button>
+                </form>
+            </div>
+    </div>
+    
+    <script src="./dynamics/buscaminas.js"></script>
+</body>
+</html>

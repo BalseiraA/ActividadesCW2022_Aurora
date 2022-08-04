@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./statics/styles/css.css">
+    <link rel="icon" href="./statics/img/icono.png" type="image/png">
+    <title>Frogger</title>
+</head>
+<body>
+    <canvas id="mi-canvas" width="720" height="630"></canvas>
+    <div style="display: none;">
+        <span id="contador">00:00:00</span><span id="nombre" class="ali">NIN</span><span class="ali" id="puntucion">NTT</span>
+    </div>
+
+    <div style="display: none;">
+        <span id="noVidas"></span>
+    </div>
+
+    <div id="contenedor_lirios" >
+        <div id="lirio11" style="display: none">X</div>
+        <div id="lirio22" style="display: none">X</div>
+        <div id="lirio33" style="display: none">X</div>
+        <div id="lirio44" style="display: none">X</div>
+
+    </div> 
+
+    <div id="con_usuario" style="display: none;">
+        <input type="text" name="nombre" placeholder="Ingrese su usuario" id="usuario">
+        <button id="aceptar">Ok</button>
+    </div>
+    <script src="./dynamics/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+/* PERFIL DEL USUARIO */
+@font-face {
+    font-family: "Fuente 1";
+    src: url(../fonts/Alata/Alata-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: url('../img/prepa6-jardineras-4to.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#divPadre
+{
+    display: flex;
+    flex-direction: row;
+}
+#infoGeneral
+{
+    background-color: #d29EEb;
+    text-align: center;
+    border:solid;
+    border-width: 5px;
+    border-color: #5e17eb;
+    width:max-content;
+}
+h3
+{
+    margin: 40px;
+    margin-bottom: 20px;
+    color:#814beb;
+}
+img
+{
+    margin: 20px;
+}
+#perfilNombre,#nCuenta,#correoElectronico
+{
+    background-color: white;
+    height: 40px;
+    margin: 30px;
+    border:none;
+    border-radius: 10px;
+    color:#814beb;
+    font-size: large;
+}
+#grupo,#seccion
+{
+    background-color:white;
+    display: flex;
+    align-items:  center;
+    flex-direction: row;
+    color:#814beb;
+    font-size: large;
+    text-align: center;
+    border-radius: 20px;
+    width:70px;
+    height: 70px;
+    margin: 10px;
+}
+#navBar
+{
+    background-color: #d29EEb;
+    text-align: center;
+    border:solid;
+    border-width: 5px;
+    border-color: #5e17eb;
+    width:auto;
+}
+#perfilNombre2,#correoElectronico2,#correoElectronicoRecup,#telefono
+{
+    background-color: #f3fadc;
+    height: 40px;
+    margin: 30px;
+    border:none;
+    border-radius: 10px;
+    color:#d581a1;
+    font-size: large;
+}
+#grupo2,#seccion2,#nCuenta2
+{
+    background-color: #ccbaf1;
+    height: 40px;
+    margin: 30px;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    font-size: large;
+}
+button
+{
+    color: white;
+    font-size: medium;
+    border:solid;
+    border-width: 2px;
+    border-color: #5e17eb;
+    border-radius: 10px;
+    background-color:#814beb;
+    text-align: center;
+    margin: 10px;
+    align-items: center;
+}
+#cambiarFoto,#guardar
+{
+    height: 30px;
+}
+button:hover
+{
+    background-color: #370797;
+}
+#cambiarInfo
+{
+    margin: 30px;
+}
+/* -------------------------------------------- */
+
+/* TABLERO DE ENTREGAS */
+.header
+{
+    width: 100%;
+    height: 70px;
+    border: solid 2px black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(210, 158, 235, 1);
+    border: solid 6px rgba(94, 23, 235, 1);
+    font-family: "Fuente 1";
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgba(94, 23, 235, 1);
+}
+#botones
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 10px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#Materiales-boton,#Trabajos-boton
+{
+    width: auto;
+    font-size: x-large;
+}
+#anadir
+{
+    background-color: #d581a1;
+    color: #370797;
+    font-size: xxx-large;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    align-content: center;
+    border:solid;
+    border-color: #370797;
+    border-radius: 100%;
+}
+#anadir:hover
+{
+    background-color: #b35579;
+}
+/* ------------------- */

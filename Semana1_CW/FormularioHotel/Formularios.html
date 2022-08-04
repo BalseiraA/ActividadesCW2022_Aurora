@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Hotel Tumbalacasa</title>
+            <link rel="icon" href="./hotelico.png" type="image/png">
+    </head>
+    <body>
+        <h1>Hotel Tumbalacasa:</h1>
+        <h2>Bienvenid@ al Hotel Tumbalacasa!!</h2>
+        <center><img src="./hotelcali.jpg" alt="Foto del Hotel 100% claroquesi" width="400"></center>
+        <blockquote>Bienvenido al hotel Tumbalacasa, uno de los más aclamados de Tulum durante los últimos 5 años, contando con cuartos dignos de 5 estrellas, servicio a habitación inmediato las 24 horas del día y locelizaciones más que aptas para que usted y su familia disfruten de una estancia de lo más agradable.</blockquote>
+        <form action="./Formularios.htm" method="post" target="self">
+            <fieldset>
+                <legend><strong>Datos de reservación:</strong></legend><br>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"> 
+                
+                <br><br>
+
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos"> 
+                
+                <br><br>
+
+                <label for="correo">Email:</label>
+                <input type="email" id="correo" name="correo"> 
+                
+                <br><br>
+
+                <label for="fecha">Fecha de Recepción:</label>
+                <input type="date" id="fecha" name="fecha"> 
+                
+                <br><br>
+
+                <label for="tel">Número de Teléfono:</label>
+                <input type="number" id="tel" name="tel"> 
+                
+                <br><br>
+
+                <label for="cama">Tipo de Cama:</label>
+                <select name="cama">
+                    <option value="1">Individual</option>
+                    <option value="2">Matrimonial</option>
+                    <option value="3">King Size</option>
+                    <option value="4">Queen Size</option>
+                </select>
+                
+                <br><br>
+
+                <label for="lugar">Lugar de preferencia para Habitación:</label>
+                <select name="lugar">
+                    <option value="1">Playita uwu</option>
+                    <option value="2">Cerca de alberca</option>
+                    <option value="3">Bajo del mar (turututu)</option>
+                    <option value="4">Enterrados en la arena</option>
+                    <option value="5">Nomás deme una cama y yo me las arreglo</option>
+                </select>
+                
+                <br><br>
+
+                <label>Comentarios Adicionales:</label><br>
+                <textarea name="comentarios" rows="10" cols="40"> </textarea>
+                <br><br>
+
+                <button type="reset"> Reiniciar</button>
+                <button type="submit"> Enviar</button>
+            </fieldset>
+            
+        </form>
+        
+    </body>
+</html>

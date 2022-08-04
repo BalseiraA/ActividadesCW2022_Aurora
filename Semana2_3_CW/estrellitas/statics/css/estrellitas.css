@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Candy";
+    src: url("../fonts/CandyBeans.otf");
+}
+@font-face {
+    font-family: "Stars";
+    src: url("../fonts/Stars-Regular.ttf");
+}
+
+body{
+    background-image: url("../img/stars.jpg");
+    background-size: cover;
+}
+
+h2{
+    font-family: "Stars", 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size:50px;
+    font-weight: bolder;
+    color: rgb(90, 17, 158);
+}
+
+.boton{
+    font-family: "Candy", 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: white;
+    background-color: rgb(153, 142, 252);
+    padding: 3%;
+    border-radius: 50%;
+
+    left: 35%;
+
+    position: relative;
+}
+
+#testo{
+    font-family: "Candy", 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: rgb(90, 17, 158);
+}
+
+#cuerpo{
+    background-color: rgb(245, 240, 255);
+    width: fit-content;
+    height: auto;
+    padding: 3%;
+    border-radius: 10%;
+    left: 30%;
+    position:absolute;
+}

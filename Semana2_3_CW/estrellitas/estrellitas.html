@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./statics/css/estrellitas.css">
+    <title>Estrellas</title>
+</head>
+<body>
+    <div id="cuerpo">
+        <h2>Generador de Estrellas</h2>
+        <canvas width="450" height="450" id="estrella"></canvas>
+        <br><br>
+        <div id="testo">
+            <label for="picos">Número de picos:</label>
+            <input type="number" name="picos" id="picos" min="4" max="30" required>
+            <br><br>
+            <label for="picuda">Picudismo:</label>
+            <input type="range" id="picuda" name="picuda" min="1" max="30"> 
+            <br><br>
+            <label for="color">Color:</label>
+            <input type="color" name="color" id="color">
+            <br><br>
+            <label for="relleno">Rellena:</label>
+            <input type="checkbox" name="relleno" id="relleno">
+            <br><br>
+            <button id="dibujar" class="boton">Dibujar</button>
+        </div>
+        
+    </div>
+
+    <script src="./dynamics/estrellitas.js"></script>
+</body>
+</html>

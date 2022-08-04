@@ -1,0 +1,59 @@
+/*  =FUENTES 
+-----------------------------------------------------------------------------------*/
+@font-face {
+    font-family: "ChikenPie";
+    src: url("../fonts/CHICKEN Pie.ttf");
+}
+@font-face {
+    font-family: "Bubblegum";
+    src: url("../fonts/Bubblegum.ttf");
+}
+/*---------------------------------------------------------------------------------*/
+
+/*  =ESTRUCTURA
+-----------------------------------------------------------------------------------*/
+
+body {
+    background-color: #A8DEAE;
+}
+
+#cuerpoP {
+    font-family: "Bubblegum", "Comic Sans", cursive;
+    text-align: center;
+    color: #6d403e;
+
+    background-color: #FFC6C4;
+    width: 500px;
+    padding: 20px;
+    border: #6d403e dashed 5px;
+    border-radius: 20px 20px 20px 20px;
+
+    left: 35vw;
+
+    position: absolute;
+}
+
+#tareas {
+    text-align: left;
+    background-color: #ffeeee;
+    width: 460px;
+    height: 80px;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#cuerpo {
+    font-family: "ChikenPie", "Comic Sans", cursive;
+    color: #915553;
+    top: 50%;
+
+    position: relative;
+}
+
+#agrega {
+    background-color: #449161;
+    font-size: large;
+    border-radius: 50%;
+    color: azure;
+    padding: 20px;
+}

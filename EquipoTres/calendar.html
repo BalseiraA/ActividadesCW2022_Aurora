@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./statics/styles/calendar.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">CALENDARIO DE ENTREGAS</div>
+    <!-- Regresar a la pagina principal -->
+    <a href="./index.html">Inicio</a>
+    <!-- Calendario -->
+    <div class="container">
+        <div class="calendar-container">
+            <div class="calendar-header">
+                <div class="class-select">
+                    <select id="selectMaterias">
+                    </select>
+                </div>
+                <div class="months">
+                    <button id="button-previous-month"></button>
+                    <div style="width: 180px; text-align: center;">
+                        <span id="span-month"></span>, <span id="span-year"></span>
+                    </div>
+                    <button id="button-next-month">></button>
+                </div>
+                <div style="opacity: 0;">Test</div>
+            </div>
+            <div class="calendar-body ">
+                <div id="div-calendar" class="calendar">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal de eventos -->
+    <div id="modal-events" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 id="modal-title" class="modal-title"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="modal-body" class="modal-body">
+                    <div id="div-add-event" class="add-event">
+                        <div class="mb-3">
+                            <label for="" class="form-label">Titulo</label>
+                            <input type="text" class="form-control" id="input-titulo" aria-describedby="helpId" placeholder="">
+                            <small id="helpId" class="form-text text-muted">titulo del evento</small>
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Materia</label>
+                            <select class="form-control" id="select-materia">
+                            <option value="">Seleccione una materia</option>
+                          </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Fecha</label>
+                            <input type="date" class="form-control" id="input-fecha" aria-describedby="helpId" placeholder="">
+                            <small id="helpId" class="form-text text-muted">fecha del evento</small>
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Hora Inicio</label>
+                            <input type="time" class="form-control" id="input-hora-inicial" aria-describedby="helpId" placeholder="">
+                            <small id="helpId" class="form-text text-muted">hora inicial del evento</small>
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Hora Fin</label>
+                            <input type="time" class="form-control" id="input-hora-final" aria-describedby="helpId" placeholder="">
+                            <small id="helpId" class="form-text text-muted">hora final del evento</small>
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Descripción</label>
+                            <textarea class="form-control" id="input-descripcion" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div id="div-list-events"></div>
+                </div>
+                <div class="modal-footer">
+                    <button id="button-save-event" type="button" class="btn btn-primary">Guardar evento</button>
+                    <button id="button-add-event" type="button" class="btn btn-primary">Agregar evento</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Calendar -->
+    <script src="./dynamics/js/calendar.js "></script>
+</body>
+
+</html>

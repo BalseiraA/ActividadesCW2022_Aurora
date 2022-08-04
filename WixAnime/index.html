@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./libs/bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="./statics/styles/index.css">
+        <title>Wix Anime</title>
+    </head>
+    <body>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-light" id="nav">
+            <div class="container-fluid">
+              <h1 class="navbar-brand" href="#">AxoWiki Anime</h1>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Animes
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li aria-disabled="true"><span class="dropdownItem">Animes</span></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <div id="opciones">
+                          <li><a id="0" class="dropdown-item" href="#">My Hero Academia</a></li>
+                          <li><a id="1" class="dropdown-item" href="#">Violet Evergarden</a></li>
+                          <li><a id="2" class="dropdown-item" href="#">Death Note</a></li>
+                          <li><a id="3" class="dropdown-item" href="#">Spy x family</a></li>
+                          <li><a id="4" class="dropdown-item" href="#">Tensei Shitara Slime</a></li>
+                        </div>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- CUERPO -->
+          <div id="contenedor">
+            <div id="fondo">
+              <!-- <div id="axo">
+                <img src="./statics/img/axo.jpeg" alt="Ajolote" width="400" height="400">
+              </div> -->
+              <div id="texto" style="display: none;" class="info_padre">
+                <div id="nombre" class="info_hijo">Nombre: </div><br>
+                <div id="genero" class="info_hijo">Género: </div><br>
+                <div id="descripcion" class="info_hijo">Descripción: </div><br>
+                <div id="publicacion" class="info_hijo">Publicación: </div><br>
+                <!-- <div id="personajes" class="info_hijo">Personajes</div><br> -->
+              </div>
+            </div>
+          </div>
+          
+          <script src="./dynamics/js/index.js"></script>
+          <script src="./libs/bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
+
+
+<!--eran los id que al principio le puse a las opciones pero me arrepentí, los dejo apartados por si en algun futuro los requerimos
+ id="tenseiS"
+id="spyX"
+id="deathNote"
+id="violetEv"
+id="myHero" -->

@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Honguito";
+    src: url("./fonts/MagicMushroom.otf");
+}
+
+@font-face {
+    font-family: "Candy";
+    src: url("./fonts/CandyBeans.otf");
+}
+
+td, tr {
+    width: 30px;
+    height: 30px;
+    border: #0f4a6e dashed 3px;
+}
+
+#titulo2 {
+    font-family: "Honguito", "Comic Sans", cursive;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    text-align: center;
+}
+
+.boton{
+    font-family: "Candy", "Comic Sans", cursive;
+    color: white;
+    font-size: larger;
+    background-image: url("./img/pattern3.png");
+    border: white dashed 5px;
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    top: 30%;
+    position: absolute;
+}
+
+.boton2{
+    font-family: "Candy", "Comic Sans", cursive;
+    color: white;
+    font-size: larger;
+    background-image: url("./img/pattern3.png");
+    border: white dashed 5px;
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#fondo {
+    background-image: url("./img/mushroom4.png");
+    background-size: cover;
+}
+
+.bombi{
+    background-color: #BCEFF3;
+}
+
+.taLibre {
+    color: #BCEFF3;
+    background-color: #BCEFF3;
+    text-align: center;
+}
+
+.taAbierta {
+    font-family: "Candy", "Comic Sans", cursive;
+    font-size: 20px;
+    color: #0f4a6e;
+    background-color: #BCEFF3;
+    text-align: center;
+}
+
+.taMarcada {
+    background-image: url("./img/flag.png");
+    background-color: #BCEFF3;
+    background-size:cover;
+
+}
+
+.muerte {
+    background-image: url("./img/muerto.png");
+    background-size: cover;
+}
+#niveles {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#tabla{
+    left: 25%;
+    position: absolute;
+}

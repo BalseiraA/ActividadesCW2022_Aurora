@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Fuente 1";
+    src: url(../fonts/Alata/Alata-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: url('../img/prepa6-jardineras-4to.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.reg_contenedor{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+
+    left: 30px;
+
+    position: absolute;
+}

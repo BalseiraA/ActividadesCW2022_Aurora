@@ -1,0 +1,225 @@
+    @font-face {
+        font-family: "Fuente 1";
+        src: url(../fonts/Alata/Alata-Regular.ttf);
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background: url('../img/prepa6-jardineras-4to.jpg');
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+    
+    .header {
+        width: 100%;
+        height: 70px;
+        border: solid 2px black;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(210, 158, 235, 1);
+        border: solid 6px rgba(94, 23, 235, 1);
+        font-family: "Fuente 1";
+        font-weight: bold;
+        font-size: xx-large;
+        color: rgba(94, 23, 235, 1);
+    }
+    
+    .calendar-container {
+        width: 820px;
+        height: 550px;
+    }
+    
+    .calendar-header {
+        display: flex;
+        border: solid 3px black;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 820px;
+        height: 60px;
+        border-radius: 20px 20px 0 0;
+        background-color: rgba(129, 75, 235, 1);
+    }
+    
+    .class-select>select {
+        margin-left: 20px;
+        width: 200px;
+        height: 40px;
+    }
+    
+    .months {
+        font-family: "Fuente 1";
+        font-weight: bold;
+        font-size: large;
+        margin-left: -180px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calendar-body {
+        display: flex;
+        width: 820px;
+        height: 600px;
+        border: solid 3px black;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .calendar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 792px;
+        height: 585px;
+        border: solid 4px black;
+    }
+    
+    .dayOfWeekHeader {
+        width: calc(100% / 7);
+        height: 40px;
+        border-bottom: solid 2px black;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    
+    .calendar-day {
+        width: 112px;
+        height: 90px;
+        border: solid 2px black;
+    }
+    
+    .active-calendar-day {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: black;
+        text-align: right;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    
+    .calendar-day-number {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .today {
+        background-color: rgba(94, 23, 235, 1);
+        color: white;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        padding-right: 3px;
+    }
+    
+    .disabled-calendar-day {
+        color: gray;
+        text-align: right;
+        font-weight: lighter;
+        cursor: not-allowed;
+    }
+    
+    .events-by-date {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #555;
+        color: yellow;
+        min-width: 50px;
+        width: 50px;
+        border-radius: 50%;
+        vertical-align: middle;
+    }
+    
+    .events-by-date:before {
+        content: '';
+        float: left;
+        width: auto;
+        padding-bottom: 100%;
+    }
+    
+    .event-day {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10px;
+        align-items: end;
+    }
+    
+    .event-day-remove {
+        position: absolute;
+        top: 15px;
+        margin-right: 10px;
+        font-size: 10px;
+        background-color: white;
+    }
+    
+    .event-day-button {
+        background-color: rgb(236, 255, 109);
+        color: #444;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        transition: 0.4s;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .event-day-button:hover {
+        background-color: rgb(46, 49, 26);
+        color: rgb(236, 255, 109);
+    }
+    
+    .event-day-info {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        width: 100%;
+    }
+
+    .SOPITAS {
+        border-radius: 10% 10% 10% 10%;
+        background-color: #c1a6f8;
+        font-family: "Fuente 1";
+        font-weight: bolder;
+        font-size: 100px;
+       
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        
+        position: relative;
+        margin: auto;
+        top: 12vh;
+        width: 500px;
+        height: 500px;
+    }
+
+    #jugarSopitas{
+        color: #fff;
+        border: 3px solid #5717eb;
+        border-radius: 10% 10% 10% 10%;
+        background-color: #814beb;
+        position: relative;
+        top: 20px;
+        width: 100px;
+        height: 100px;
+    }

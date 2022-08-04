@@ -1,0 +1,19 @@
+.panel {
+    font-family: "Fuente 1";
+    color: rgba(94, 23, 235, 1);
+    border-radius: 20px;
+    border: solid 3px rgba(129, 75, 235, 1);
+    background-color: rgba(210, 158, 235, 1);
+    width: 700px;
+    height: 520px;
+    padding: 40px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.title {
+    font-family: "Fuente 1";
+    font-size: 45px;
+    font-weight: bold;
+    color: rgba(94, 23, 235, 1);
+}

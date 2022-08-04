@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "Honguito";
+    src: url("./fonts/MagicMushroom.otf");
+}
+
+@font-face {
+    font-family: "Candy";
+    src: url("./fonts/CandyBeans.otf");
+}
+
+td, tr {
+    width: 80px;
+    height: 80px;
+    border: 5px;
+
+}
+
+
+#boton{
+    font-family: "Candy", "Comic Sans", cursive;
+    color: white;
+    font-size: larger;
+    background-image: url("./img/pattern.png");
+    border: white dashed 5px;
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.boton{
+    font-family: "Candy", "Comic Sans", cursive;
+    color: white;
+    font-size: larger;
+    background-image: url("./img/pattern.png");
+    border: white dashed 5px;
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    top: 30%;
+    position: absolute;
+}
+
+.boton2{
+    font-family: "Candy", "Comic Sans", cursive;
+    color: white;
+    font-size: larger;
+    background-image: url("./img/pattern.png");
+    border: white dashed 5px;
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#fondo {
+    background-image: url("./img/mushroom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#titulo {
+    font-family: "Honguito", "Comic Sans", cursive;
+    font-size: 70px;
+    text-align: center;
+    color: rgb(209, 19, 19);
+}
+
+#info {
+    font-family: "Candy", "Comic Sans", cursive;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#nombre {
+    font-family: "Candy", "Comic Sans", cursive;
+    width: 170px;
+    height: 40px;
+    font-size: 30px;
+    border: red dashed;
+}
+
+#opciones{
+    font-family: "Candy", "Comic Sans", cursive;
+    width: 170px;
+    height: 40px;
+    font-size: 30px;
+    border: red dashed;
+}
+
+
+#titulo2 {
+    font-family: "Honguito", "Comic Sans", cursive;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    text-align: center;
+}
+
+#fondo2 {
+    background-image: url("./img/mushroom2.jpg");
+}
+
+.bombi{
+    background-color: rgb(21, 105, 4);
+    border: rgb(226, 222, 213) dashed 3px;
+}
+
+.taLibre {
+    color: rgb(21, 105, 4);
+    background-color: rgb(21, 105, 4);
+    border: rgb(226, 222, 213) dashed 3px;
+    text-align: center;
+}
+
+.mouseover {
+    color: rgb(101, 180, 85);
+    background-color: rgb(101, 180, 85);
+    border: rgb(226, 222, 213) dashed 3px;
+    text-align: center;
+}
+
+.taAbierta {
+    font-family: "Candy", "Comic Sans", cursive;
+    font-size: 40px;
+    color: rgb(226, 222, 213);
+    background-color: rgb(21, 105, 4);
+    text-align: center;
+}
+
+.taMarcada {
+    background-image: url("./img/flag.png");
+    background-color: rgb(21, 105, 4);
+    background-size:cover;
+
+}
+
+.muerte {
+    background-image: url("./img/muerto.png");
+    background-size: cover;
+}
+#niveles {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#tabla{
+    left: 30%;
+    position: absolute;
+}
